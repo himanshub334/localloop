@@ -1,0 +1,6 @@
+{
+  "name": "localloop-api", "version": "1.0.0", "type": "module",
+  "scripts": { "start": "node src/server.js", "test": "jest --runInBand" },
+  "dependencies": { "cors": "^2.8.5", "express": "^4.21.2", "ioredis": "^5.4.1", "mongodb": "^6.11.0", "pg": "^8.13.1" },
+  "devDependencies": { "jest": "^29.7.0", "supertest": "^7.0.0" }
+}
